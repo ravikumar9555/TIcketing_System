@@ -1,0 +1,141 @@
+body {
+   
+  
+    
+  
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to bottom right, #9994fa, #eb6678)
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-title {
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 3vh;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-username {
+    margin-right: 20px;
+  }
+  
+  .logout-button {
+    padding: 8px 16px;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout-button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  .customer-page {
+    display: flex;
+  }
+  
+  .left-column {
+    flex: 1;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .right-column {
+    flex: 2;
+    padding: 20px;
+  }
+  
+  .buttons-container {
+    margin-top: 20px;
+  }
+  
+  .view-tickets-button,
+  .create-ticket-button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .view-tickets-button:hover,
+  .create-ticket-button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  .sidebar {
+    background-color: rgb(112, 141, 190);
+    color: white;
+    height: calc(100vh - 50px); /* Adjust the height as per your requirement */
+    padding: 20px;
+  }
+  
+  .sidebar h2 {
+    margin-bottom: 20px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .sidebar a:hover {
+    text-decoration: underline;
+  }
+  
+  .high-severity {
+    color: red; /* Set text color to red for high severity */
+  }
+  
+  .low-severity {
+    color: green; /* Set text color to green for low severity */
+  }
+
+  
+
+  .supportForm{
+    height: auto;
+    width: 20vh;
+  }
+
+  .gradient-custom {
+ 
+
+  
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1))
+}
